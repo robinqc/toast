@@ -26,7 +26,7 @@ const App = (props) => {
             <Grid item sm xs={12} md lg >
               <MainMenu/>
             </Grid>
-          <Grid item xs={12} sm={7} md={7} lg={7} xl={9} style={{padding:'0 5px'}}>
+          <Grid item xs={12} sm={9} md={9} lg={10} xl={10} style={{padding:'0 5px'}}>
             <Search/>
             <FilesContext.Consumer>
 
@@ -35,9 +35,6 @@ const App = (props) => {
             }
           
             </FilesContext.Consumer>
-          </Grid>
-          <Grid item sm xs={12} lg md >
-            ss
           </Grid>
           </Grid>
           
